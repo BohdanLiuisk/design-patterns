@@ -5,9 +5,11 @@ VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Composite\Composite.csproj", "{6CE35458-920E-4590-8751-E647DB24AD99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeNeuron", "CompositeNeuron\CompositeNeuron.csproj", "{D6C2C527-D53F-46E1-94C0-DE83058F8AC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CompositeNeuron", "CompositeNeuron\CompositeNeuron.csproj", "{D6C2C527-D53F-46E1-94C0-DE83058F8AC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{3837C59B-3A77-474F-8A38-AFFFFC883A20}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{3837C59B-3A77-474F-8A38-AFFFFC883A20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDI", "SimpleDI\SimpleDI.csproj", "{79C989AA-21C7-4AAE-A44F-A763F7830AE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{3837C59B-3A77-474F-8A38-AFFFFC883A20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3837C59B-3A77-474F-8A38-AFFFFC883A20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3837C59B-3A77-474F-8A38-AFFFFC883A20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C989AA-21C7-4AAE-A44F-A763F7830AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C989AA-21C7-4AAE-A44F-A763F7830AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C989AA-21C7-4AAE-A44F-A763F7830AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C989AA-21C7-4AAE-A44F-A763F7830AE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
